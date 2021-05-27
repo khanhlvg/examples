@@ -1,8 +1,8 @@
-# TensorFlow Lite Hand Detection Android Demo
+# TensorFlow Lite Hand Tracking Android Demo
 ### Overview
 This is an app that uses MediaPipe's [Hands](https://google.github.io/mediapipe/solutions/hands.html) model to detect the hand parts in the frames seen by your device's camera. These instructions walk you through building and running the demo on an Android device. Camera captures are discarded immediately after use, nothing is stored or saved. 
 
-![Demo Image](handdetection.png)
+![Demo Image](screenshot.png)
 
 ## Build the demo using Android Studio
 

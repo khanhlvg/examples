@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.tensorflow.lite.examples.handdetection">
+    package="org.tensorflow.lite.examples.handtracking">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HandDetection">
-        <activity android:name=".MainActivity">
+        <activity android:name="org.tensorflow.lite.examples.handtracking.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -18,7 +18,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.tensorflow.lite.examples.handdetection.fileprovider"
+            android:authorities="org.tensorflow.lite.examples.handtracking.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

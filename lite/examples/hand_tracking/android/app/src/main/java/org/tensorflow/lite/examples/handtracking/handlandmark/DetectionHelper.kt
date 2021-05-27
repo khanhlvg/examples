@@ -12,9 +12,9 @@
 //See the License for the specific language governing permissions and
 //limitations under the License.
 
-package org.tensorflow.lite.examples.handdetection.handlandmark
+package org.tensorflow.lite.examples.handtracking.handlandmark
 
-import org.tensorflow.lite.examples.handdetection.handlandmark.data.*
+import org.tensorflow.lite.examples.handtracking.handlandmark.data.*
 import kotlin.math.*
 
 object DetectionHelper {

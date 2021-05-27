@@ -12,7 +12,7 @@
 //See the License for the specific language governing permissions and
 //limitations under the License.
 
-package org.tensorflow.lite.examples.handdetection.handlandmark.data
+package org.tensorflow.lite.examples.handtracking.handlandmark.data
 
 data class Rect(
     var centerX: Float,

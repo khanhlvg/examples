@@ -12,14 +12,14 @@
 //See the License for the specific language governing permissions and
 //limitations under the License.
 
-package org.tensorflow.lite.examples.handdetection.handlandmark
+package org.tensorflow.lite.examples.handtracking.handlandmark
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.RectF
 import org.tensorflow.lite.DataType
 import org.tensorflow.lite.Interpreter
-import org.tensorflow.lite.examples.handdetection.handlandmark.data.*
+import org.tensorflow.lite.examples.handtracking.handlandmark.data.*
 import org.tensorflow.lite.gpu.GpuDelegate
 import org.tensorflow.lite.support.common.FileUtil
 import org.tensorflow.lite.support.common.ops.NormalizeOp

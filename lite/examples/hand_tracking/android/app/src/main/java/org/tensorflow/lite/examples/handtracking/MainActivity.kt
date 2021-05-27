@@ -1,4 +1,4 @@
-package org.tensorflow.lite.examples.handdetection
+package org.tensorflow.lite.examples.handtracking
 
 import android.app.Activity
 import android.content.Intent
@@ -16,8 +16,8 @@ import androidx.exifinterface.media.ExifInterface
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.tensorflow.lite.examples.handdetection.handlandmark.HandDetector
-import org.tensorflow.lite.examples.handdetection.handlandmark.data.HandLandmark
+import org.tensorflow.lite.examples.handtracking.handlandmark.HandDetector
+import org.tensorflow.lite.examples.handtracking.handlandmark.data.HandLandmark
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat

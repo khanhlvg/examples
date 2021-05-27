@@ -12,13 +12,14 @@
 //See the License for the specific language governing permissions and
 //limitations under the License.
 
-package org.tensorflow.lite.examples.handdetection.handlandmark.data
+package org.tensorflow.lite.examples.handtracking.handlandmark.data
 
 /**
- * Palm detection result
+ * SSD anchors
  */
-data class Detection(
-    val labelId: Int,
-    val score: Float,
-    val locationData: LocationData
+data class Anchor(
+    val xCenter: Float,
+    val yCenter: Float,
+    val h: Float,
+    val w: Float
 )
