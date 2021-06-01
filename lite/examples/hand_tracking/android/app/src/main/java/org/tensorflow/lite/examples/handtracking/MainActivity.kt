@@ -165,7 +165,7 @@ class MainActivity : AppCompatActivity() {
                 photoFile?.also {
                     val photoURI: Uri = FileProvider.getUriForFile(
                         this,
-                        "org.tensorflow.lite.examples.handdetection.fileprovider",
+                        "org.tensorflow.lite.examples.handtracking.fileprovider",
                         it
                     )
                     takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)
